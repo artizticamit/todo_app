@@ -1,0 +1,41 @@
+.todo-items-header{
+    display: flex;
+    /* align-items: center; */
+    width: 90%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.todo-items{
+    background-color: rgb(239, 212, 6);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 10px 5px;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+
+}
+
+.todo-items-text{
+    /* margin: 0px 15px; */
+    flex:1;
+    margin-right: 15px;
+}
+
+.todo-items-text:focus{
+    outline: none;
+}
+
+.todo-items-delete{
+    position: relative;
+    right: -25px;
+    cursor: pointer;
+}
+
+.icon{
+    /* padding: 0 8px; */
+    margin-left: 10px;
+    cursor: pointer;
+}
